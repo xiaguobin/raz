@@ -6,12 +6,11 @@ function FindProxyForURL(url, host) {
         shExpMatch(host, "(*.cloudapp.net)"))
         return "PROXY 35.201.158.34:25";
 		
-    if (shExpMatch(host, "(*.raz-kids.com)") ||
-		shExpMatch(host, "(*.kidsa-z.com)"))
+    	if (shExpMatch(host, "(*.raz-kids.com)") ||
+	shExpMatch(host, "(*.kidsa-z.com)"))
         return "PROXY 35.201.158.34:25";
 		
-    if (shExpMatch(host, "(*.mathletics.com)") ||
-        shExpMatch(host, "(*.cloudapp.net)"))
+   	if (shExpMatch(host, "(*.mathletics.com)")
         return "PROXY 35.201.158.34:25";
 		
 	if (shExpMatch(host, "(*.readingeggs.com)") ||
